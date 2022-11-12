@@ -10,9 +10,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessLogic
+namespace BusinessLogic.Service
 {
-    public class WatchServices:IWatchServices
+    public class WatchServices : IWatchServices
     {
         private readonly WatchShopDbContext context;
         private readonly IMapper mapper;
